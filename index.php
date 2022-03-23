@@ -12,7 +12,7 @@ $gump = new GUMP();
 
 // set validation rules
 $gump->validation_rules([
-    'username'    => 'required|alpha_numeric|max_len,100|min_len,6',
+    'username'    => 'required|alpha_space|max_len,100|min_len,6',
     'password'    => 'required|max_len,100|min_len,6',
     'emailid'       => 'required|valid_email',
     
